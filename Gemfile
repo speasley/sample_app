@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 
 group :development, :test do
+  gem 'guard-rspec', '0.5.5'
   gem 'sqlite3'
   gem 'rspec-rails'
 end
@@ -18,6 +19,10 @@ gem 'railties', '3.2.3'
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'growl', '1.0.3'
+  gem 'guard-spork', '1.5.1'
+  gem 'rb-fsevent', '0.9.3'
+  gem 'spork', '0.9.2'
 end
 
 group :production do
