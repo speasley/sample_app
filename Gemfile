@@ -19,7 +19,7 @@ gem 'jquery-rails'
 gem 'railties', '3.2.3'
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara', '~> 1.1.2'
   gem 'growl', '1.0.3'
   gem 'guard-spork', '1.5.1'
   gem 'rb-fsevent', '0.9.3'
